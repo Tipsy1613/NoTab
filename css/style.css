@@ -92,6 +92,11 @@ li {
   font-size: 18px;
   line-height: 25px;
   border-bottom: 1px solid #fff;
+  transition: all 0.3s ease;
+}
+.header .header__container2 .header__login .login__text:hover {
+  border-bottom: 1px solid rgba(231, 98, 243, 0.9607843137);
+  color: rgba(231, 98, 243, 0.9607843137);
 }
 
 @media (max-width: 659.99px) {
@@ -181,6 +186,16 @@ li {
 }
 .block1 .block1__container .block1__footer .block1__footer-decor img:first-child {
   margin-right: 23px;
+  transition: all 0.3s ease;
+}
+.block1 .block1__container .block1__footer .block1__footer-decor img:first-child:hover {
+  transform: scale(1.05);
+}
+.block1 .block1__container .block1__footer .block1__footer-decor img:nth-child(2) {
+  transition: all 0.3s ease;
+}
+.block1 .block1__container .block1__footer .block1__footer-decor img:nth-child(2):hover {
+  transform: scale(1.05);
 }
 .block1 .block1__container .img-decor1 {
   position: absolute;
@@ -1798,6 +1813,10 @@ li {
   margin: 0 auto;
   margin-bottom: 91px;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+.block10 .block10__container .block10__content .btn:hover {
+  box-shadow: 0px 0px 12px white;
 }
 .block10 .block10__container .block10__content .block10__comment {
   font-family: "Noto Sans";
